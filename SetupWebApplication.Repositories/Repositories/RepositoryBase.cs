@@ -23,7 +23,7 @@ namespace SetupWebApplication.Repositories.Repositories
             Db.SaveChanges();
         }
 
-        public TEntity GetById(int id)
+        public virtual TEntity GetById(int id)
         {
             return Db.Set<TEntity>().Find(id);
         }

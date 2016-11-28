@@ -15,6 +15,7 @@ namespace SetupWebApplication.Controllers
         // GET: Usuario
         public ActionResult Index()
         {
+            var usuario = Mapper.RepositorieToModel.UsuarioRepositorieToViewModel(_usuarioRepository.GetById(1));
             var usuarios = Mapper.RepositorieToModel.UsuariosRepositorieToViewModels(_usuarioRepository.GetAll().ToList());
             return View(usuarios);
         }
