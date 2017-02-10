@@ -1,4 +1,4 @@
 theme: jekyll-theme-architect
 title: Setup Architecture .NET Simple
 description: The idea is to promote some architecture for simples projects using solid concepts.
-show_downloads: "true"
+show_downloads: true
