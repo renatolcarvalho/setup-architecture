@@ -1,0 +1,4 @@
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\BootStrapper.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\BootStrapper.pdb
+C:\git\setup\setup-architecture\App\BootStrapper\obj\Debug\BootStrapper.dll
+C:\git\setup\setup-architecture\App\BootStrapper\obj\Debug\BootStrapper.pdb

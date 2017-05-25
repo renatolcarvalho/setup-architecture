@@ -1,0 +1,4 @@
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Data.dll
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Data.pdb
+C:\git\setup\setup-architecture\App\App.Data\obj\Debug\App.Data.dll
+C:\git\setup\setup-architecture\App\App.Data\obj\Debug\App.Data.pdb
