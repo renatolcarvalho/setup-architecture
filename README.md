@@ -42,15 +42,15 @@ Dependency Injection and Helpers Layer
 ## References
 
 ### App.Web
- - App.Domain
+ - App.Business
  - App.CrossCutting
 
 ### App.Business
  - Nothing
  
 ### App.Data
- - App.Domain
+ - App.Business
  
 ### App.CrossCutting
- - App.Domain
+ - App.Business
  - App.Data
