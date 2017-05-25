@@ -17,7 +17,7 @@ View Layer
 - Assets
 - Register Dependencies from CrossCutting Method
 
-### App.Domain
+### App.Business
 Application and Domain Layer
 
 - Automapper
@@ -45,7 +45,7 @@ Dependency Injection and Helpers Layer
  - App.Domain
  - App.CrossCutting
 
-### App.Domain
+### App.Business
  - Nothing
  
 ### App.Data
