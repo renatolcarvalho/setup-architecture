@@ -3,3 +3,14 @@ C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\BootStrapper.pdb
 C:\git\setup\setup-architecture\App\BootStrapper\obj\Debug\BootStrapper.csprojResolveAssemblyReference.cache
 C:\git\setup\setup-architecture\App\BootStrapper\obj\Debug\BootStrapper.dll
 C:\git\setup\setup-architecture\App\BootStrapper\obj\Debug\BootStrapper.pdb
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\App.Businnes.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\App.Data.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\SimpleInjector.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\EntityFramework.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\AutoMapper.dll
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\App.Data.pdb
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\App.Data.dll.config
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\App.Businnes.pdb
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\SimpleInjector.xml
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\EntityFramework.xml
+C:\git\setup\setup-architecture\App\BootStrapper\bin\Debug\AutoMapper.xml

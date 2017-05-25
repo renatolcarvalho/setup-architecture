@@ -3,3 +3,5 @@ C:\git\setup\setup-architecture\App\App.Domain\bin\Debug\App.Businnes.pdb
 C:\git\setup\setup-architecture\App\App.Domain\obj\Debug\App.Business.csprojResolveAssemblyReference.cache
 C:\git\setup\setup-architecture\App\App.Domain\obj\Debug\App.Businnes.dll
 C:\git\setup\setup-architecture\App\App.Domain\obj\Debug\App.Businnes.pdb
+C:\git\setup\setup-architecture\App\App.Domain\bin\Debug\AutoMapper.dll
+C:\git\setup\setup-architecture\App\App.Domain\bin\Debug\AutoMapper.xml
