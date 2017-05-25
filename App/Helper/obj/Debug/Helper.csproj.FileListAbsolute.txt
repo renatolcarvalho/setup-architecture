@@ -1,4 +1,0 @@
-C:\git\setup\setup-architecture\App\Helper\bin\Debug\Helper.dll
-C:\git\setup\setup-architecture\App\Helper\bin\Debug\Helper.pdb
-C:\git\setup\setup-architecture\App\Helper\obj\Debug\Helper.dll
-C:\git\setup\setup-architecture\App\Helper\obj\Debug\Helper.pdb

@@ -1,4 +1,0 @@
-C:\git\setup\setup-architecture\App\App.Domain\bin\Debug\App.Domain.dll
-C:\git\setup\setup-architecture\App\App.Domain\bin\Debug\App.Domain.pdb
-C:\git\setup\setup-architecture\App\App.Domain\obj\Debug\App.Domain.dll
-C:\git\setup\setup-architecture\App\App.Domain\obj\Debug\App.Domain.pdb
