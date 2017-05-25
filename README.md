@@ -38,3 +38,19 @@ Dependency Injection and Helpers Layer
 
 - BootStraper (Dependencies Injection)
 - Helpers
+
+## References
+
+### App.Web
+ - App.Domain
+ - App.CrossCutting
+
+### App.Domain
+ - Nothing
+ 
+### App.Data
+ - App.Domain
+ 
+### App.CrossCutting
+ - App.Domain
+ - App.Data
