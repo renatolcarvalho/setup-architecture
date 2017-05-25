@@ -1,6 +1,7 @@
 ﻿using App.Business.Interfaces.Repositories;
 using App.Business.Interfaces.Services;
 using App.Business.Services;
+using App.Data.Context;
 using App.Data.Repositories;
 using SimpleInjector;
 
@@ -18,6 +19,7 @@ namespace BootStrapper
 
             //Data
             container.Register<IExampleRepository, ExampleRepository>(Lifestyle.Scoped);
+            container.Register<MainContext>(Lifestyle.Scoped);
         }
     }
 }
