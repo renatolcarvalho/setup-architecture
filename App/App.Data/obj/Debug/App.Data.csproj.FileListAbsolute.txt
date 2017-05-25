@@ -1,4 +1,12 @@
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Data.dll.config
 C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Data.dll
 C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Data.pdb
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Businnes.dll
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\EntityFramework.dll
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\App.Businnes.pdb
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\EntityFramework.xml
+C:\git\setup\setup-architecture\App\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\git\setup\setup-architecture\App\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
 C:\git\setup\setup-architecture\App\App.Data\obj\Debug\App.Data.dll
 C:\git\setup\setup-architecture\App\App.Data\obj\Debug\App.Data.pdb
