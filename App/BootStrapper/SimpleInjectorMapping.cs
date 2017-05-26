@@ -16,6 +16,7 @@ namespace BootStrapper
         {
             //Business
             container.Register<IExampleService, ExampleService>(Lifestyle.Scoped);
+            container.Register<IManagerLog, ManagerLog>(Lifestyle.Scoped);
 
             //Data
             container.Register<IExampleRepository, ExampleRepository>(Lifestyle.Scoped);

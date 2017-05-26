@@ -8,15 +8,20 @@ namespace App.Web.Controllers
 {
     public class ExampleController : Controller
     {
+        private const string INIT_EXAMPLE = "Log Example";
+
         private readonly IExampleService _exampleService;
-        public ExampleController(IExampleService exampleService)
+        private readonly IManagerLog _managerLog;
+        public ExampleController(IExampleService exampleService, IManagerLog managerLog)
         {
             _exampleService = exampleService;
+            _managerLog = managerLog;
         }
 
         // GET: ExampleViewModels
         public ActionResult Index()
         {
+            _managerLog.InfoLog(INIT_EXAMPLE);
             return View(_exampleService.GetAll());
         }
 
