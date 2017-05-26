@@ -19,6 +19,7 @@ namespace BootStrapper
 
             //Data
             container.Register<IExampleRepository, ExampleRepository>(Lifestyle.Scoped);
+            container.Register<IUnitOfWork, UnitOfWork>(Lifestyle.Scoped);
             container.Register<MainContext>(Lifestyle.Scoped);
         }
     }

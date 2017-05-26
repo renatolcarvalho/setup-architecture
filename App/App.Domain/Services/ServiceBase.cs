@@ -3,50 +3,64 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using App.Business.Interfaces.Services;
 using App.Business.Interfaces.Repositories;
+using AutoMapper;
 
 namespace App.Business.Services
 {
-    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : class
+    public class ServiceBase<TEntity, TEntityViewModel> : IServiceBase<TEntity, TEntityViewModel> where TEntity : class where TEntityViewModel : class
     {
         private readonly IRepositoryBase<TEntity> _repository;
-        public ServiceBase(IRepositoryBase<TEntity> repository)
+        private readonly IUnitOfWork _uow;
+
+        public ServiceBase(IRepositoryBase<TEntity> repository, IUnitOfWork uow)
         {
+            _uow = uow;
             _repository = repository;
         }
 
-        public TEntity Add(TEntity entity)
+        protected void Commit()
         {
-            return _repository.Add(entity);
+            _uow.Commit();
+        }
+
+        public TEntityViewModel Add(TEntityViewModel entityViewModel)
+        {
+            var entity = Mapper.Map<TEntityViewModel, TEntity>(entityViewModel);
+            entityViewModel = Mapper.Map<TEntity, TEntityViewModel>(_repository.Add(entity));
+            Commit();
+
+            return entityViewModel;
         }
 
         public void Delete(Guid id)
         {
             _repository.Delete(id);
+            Commit();
         }
 
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        public TEntityViewModel FindById(Guid id)
         {
-            return _repository.Find(predicate);
+            return Mapper.Map<TEntity, TEntityViewModel>(_repository.FindById(id));
         }
 
-        public TEntity FindById(Guid id)
+        public IEnumerable<TEntityViewModel> GetAll()
         {
-            return _repository.FindById(id);
+            return Mapper.Map<IEnumerable<TEntity>, IEnumerable<TEntityViewModel>>(_repository.GetAll());
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public TEntityViewModel Update(TEntityViewModel entityViewModel)
         {
-            return _repository.GetAll();
+            var entity = Mapper.Map<TEntityViewModel, TEntity>(entityViewModel);
+            entityViewModel = Mapper.Map<TEntity, TEntityViewModel>(_repository.Update(entity));
+            Commit();
+
+            return entityViewModel;
         }
 
-        public int SaveChanges()
+        public void Dispose()
         {
-            return _repository.SaveChanges();
-        }
-
-        public TEntity Update(TEntity entity)
-        {
-            return _repository.Update(entity);
+            _repository.Dispose();
+            GC.SuppressFinalize(this);
         }
     }
 }

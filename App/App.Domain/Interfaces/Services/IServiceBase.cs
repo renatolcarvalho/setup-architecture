@@ -4,14 +4,12 @@ using System.Linq.Expressions;
 
 namespace App.Business.Interfaces.Services
 {
-    public interface IServiceBase<TEntity> where TEntity : class
+    public interface IServiceBase<TEntity, TEntityViewModel> : IDisposable where TEntity : class where TEntityViewModel : class
     {
-        TEntity Add(TEntity entity);
+        TEntityViewModel Add(TEntityViewModel entityViewModel);
         void Delete(Guid id);
-        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
-        TEntity FindById(Guid id);
-        IEnumerable<TEntity> GetAll();
-        int SaveChanges();
-        TEntity Update(TEntity entity);
+        TEntityViewModel FindById(Guid id);
+        IEnumerable<TEntityViewModel> GetAll();
+        TEntityViewModel Update(TEntityViewModel entity);
     }
 }
