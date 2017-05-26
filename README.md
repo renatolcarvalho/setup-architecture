@@ -58,7 +58,7 @@ Dependency Injection and Helpers Layer
 ## Contributors
 
 ### Levy Furst Neto
-[GitHub] (https://github.com/FurstLevy)
+[GitHub](https://github.com/FurstLevy)
 
 ### Gabriel Faraday Barros
-[GitHub] (https://github.com/gabrielfbarros)
+[GitHub](https://github.com/gabrielfbarros)
