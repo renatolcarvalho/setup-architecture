@@ -160,7 +160,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SimpleInjectorInitializer.cs" />
-    <Compile Include="Controllers\ExampleViewModelsController.cs" />
+    <Compile Include="Controllers\ExampleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -205,11 +205,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\ExampleViewModels\Create.cshtml" />
-    <Content Include="Views\ExampleViewModels\Delete.cshtml" />
-    <Content Include="Views\ExampleViewModels\Details.cshtml" />
-    <Content Include="Views\ExampleViewModels\Edit.cshtml" />
-    <Content Include="Views\ExampleViewModels\Index.cshtml" />
+    <Content Include="Views\Example\Create.cshtml" />
+    <Content Include="Views\Example\Delete.cshtml" />
+    <Content Include="Views\Example\Details.cshtml" />
+    <Content Include="Views\Example\Edit.cshtml" />
+    <Content Include="Views\Example\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

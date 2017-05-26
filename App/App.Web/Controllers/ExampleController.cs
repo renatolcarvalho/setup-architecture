@@ -6,10 +6,10 @@ using System;
 
 namespace App.Web.Controllers
 {
-    public class ExampleViewModelsController : Controller
+    public class ExampleController : Controller
     {
         private readonly IExampleService _exampleService;
-        public ExampleViewModelsController(IExampleService exampleService)
+        public ExampleController(IExampleService exampleService)
         {
             _exampleService = exampleService;
         }
