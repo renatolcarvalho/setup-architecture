@@ -54,3 +54,11 @@ Dependency Injection and Helpers Layer
 ### App.CrossCutting
  - App.Business
  - App.Data
+
+## Contributors
+
+### Levy Furst Neto
+[GitHub](https://github.com/FurstLevy)
+
+### Gabriel Faraday Barros
+[GitHub](https://github.com/gabrielfbarros)
